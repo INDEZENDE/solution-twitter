@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: courier, sans-serif;
+}
+
+body {
+  background-image: url(../assets/images/wall.jpg);
+}
+
+header {
+  height: 50px;
+}
+
+header, button, h1, nav, .tweet {
+  background-color: #6ad2f3;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+}
+
+textarea{
+  overflow:hidden;
+  margin: 0px auto;
+  display:block;
+  font-size: 20px;
+  width: 95%;
+  border: 0;
+  border-bottom: 1px solid blue;
+  height: auto;
+  resize: none;
+}
+
+button {
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+span, .text-blue {
+  font-weight: bold;
+}
+
+p, h2, textarea, div {
+  margin: 8px;
+}
+
+.btn-grey {
+  background-color: #d3cdcd;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.container {
+  background-color: #fff;
+  width: 44%;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.text-blue {
+  color: #1976d2;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-red {
+	color: red;
+}
+
+.nuevoMensaje {
+  background: #fff;
+	border-radius: 8px;
+  margin: 1.5%;
+  padding: 1%;
+}
